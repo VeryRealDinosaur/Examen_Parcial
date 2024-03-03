@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="Examen/Alfi.axaml" value="Examen/Examen.csproj" />
+        <entry key="Examen/App.axaml" value="Examen/Examen.csproj" />
+        <entry key="Examen/MainWindow.axaml" value="Examen/Examen.csproj" />
+        <entry key="Examen/Prfct.axaml" value="Examen/Examen.csproj" />
+        <entry key="Examen/Root.axaml" value="Examen/Examen.csproj" />
+        <entry key="Examen/Siri.axaml" value="Examen/Examen.csproj" />
+        <entry key="Examen/Smna.axaml" value="Examen/Examen.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

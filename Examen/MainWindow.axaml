@@ -1,0 +1,31 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Examen.MainWindow"
+        Title="Examen">
+        
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        Bienvenido! Elige una opcion:
+                </Label>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button x:Name="Alfi" Content="Ruta del alfil" Click="OnAlfiClick" />
+                        <Button x:Name="Root" Content="Raíz Cuadrada" Click="OnRootClick" />
+                        <Button x:Name="Siri" Content="Generar Serie" Click="OnSiriClick" />
+                        <Button x:Name="Prfct" Content="Numero Perfecto" Click="OnPrfctClick" />
+                        <Button x:Name="Smna" Content="Semana" Click="OnSmnaClick" />
+                        
+                        
+                </StackPanel>
+                <Grid Grid.Row="2">
+                </Grid>
+        </Grid>
+        
+</Window>

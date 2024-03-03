@@ -1,0 +1,29 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Examen.Siri"
+        Title="Siri">
+        
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+            Generador de Serie:
+        </Label>
+
+        <TextBox Grid.Row="1" HorizontalAlignment="Center" x:Name="N1" Width="300" />
+        
+        <Button Grid.Row="2" x:Name="Button" Content="Calcular" Click="CalBtn" />
+        
+        <Label Grid.Row="3" x:Name="Res" Content=""/>
+        
+    </Grid>
+</Window>
